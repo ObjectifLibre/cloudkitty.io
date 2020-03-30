@@ -1,0 +1,21 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+url: https://cloudkitty.io/
+baseurl:
+title: CloudKitty
+author: CloudKitty
+description: CloudKitty
+avatar: cloudkitty.png
+
+defaults:
+  - values:
+      thumbnail: /assets/defaults/thumbnail.png
