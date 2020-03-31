@@ -20,4 +20,4 @@ defaults:
   - values:
       thumbnail: /assets/defaults/thumbnail.png
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
