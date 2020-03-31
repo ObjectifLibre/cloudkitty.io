@@ -28,7 +28,7 @@ layout: home
       <div class="col-md-6">
         <i class="fas fa-edit" style="font-size:30px; color:#27A822"></i>
         <h4>Wanna post an article on this site ?</h4>
-        <a href="/introducing-cloudkittyio">Learn how to!</a>
+        <a href="{{ site.baseurl }}introducing-cloudkittyio">Learn how to!</a>
       </div>
     </div>
 
@@ -46,7 +46,7 @@ layout: home
             <a href="{{ post.url }}">
               <div class="col-sm-6">
                 <div style="max-width: 350px; margin-left: auto;margin-right: auto;">
-                  <img src="{{ post.thumbnail }}" style="max-width: 100%;">
+                  <img src="{{ site.baseurl }}{{ post.thumbnail }}" style="max-width: 100%;">
                   <h4><strong>{{ post.title }}</strong></h4>
                 </div>
               </div>
