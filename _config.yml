@@ -19,3 +19,5 @@ avatar: cloudkitty.png
 defaults:
   - values:
       thumbnail: /assets/defaults/thumbnail.png
+
+theme: jekyll-theme-cayman
