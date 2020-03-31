@@ -43,7 +43,7 @@ layout: home
               {% if forloop.index > 2 %}
                 {% break %}
             {% endif %}
-            <a href="{{ post.url }}">
+            <a href="{{ site.baseurl }}{{ post.url }}">
               <div class="col-sm-6">
                 <div style="max-width: 350px; margin-left: auto;margin-right: auto;">
                   <img src="{{ site.baseurl }}{{ post.thumbnail }}" style="max-width: 100%;">
