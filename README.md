@@ -1,7 +1,7 @@
 
 # CloudKitty.io
 
-![cloudkitty.io](https://raw.githubusercontent.com/objectiflibre/cloudkitty.io/setting-up/assets/images/cloudkittyio.png)
+![cloudkitty.io](https://raw.githubusercontent.com/objectiflibre/cloudkitty.io/master/assets/images/cloudkittyio.png)
 
 A collaborative blog about [CloudKitty](https://github.com/openstack/cloudkitty) by and for the community.
 CloudKitty.io is a fork of [Sustain](https://github.com/jekyller/sustain) project.
