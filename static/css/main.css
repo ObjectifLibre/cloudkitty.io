@@ -30,6 +30,7 @@ body {
   border-color: #ffffff;
 }
 .navbar-default .navbar-brand {
+  font-size: 25px;
   color: #6b6b6b;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -39,6 +40,7 @@ body {
   color: #6b6b6b;
 }
 .navbar-default .navbar-nav > li > a {
+  font-size: 20px;
   color: #6b6b6b;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -89,7 +91,7 @@ body {
 
 .container {
   width: auto;
-  max-width: 800px;
+  max-width: 1140px;
   text-align: center;
 }
 .container .text-muted {
@@ -192,7 +194,7 @@ body {
 	color: #6b6b6b;
 }
 div.footer{
-  border-bottom: 5px solid #27A822;;
+  border-bottom: 5px solid #27A822;
 }
 /* Set the fixed height of the footer here */
 /*.footer {
@@ -200,3 +202,7 @@ div.footer{
   padding-bottom: 15px;
 
 }*/
+
+p.home-page {
+  font-size: 20px;
+}

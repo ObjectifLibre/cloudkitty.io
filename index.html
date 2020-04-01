@@ -5,38 +5,39 @@ layout: home
 
 	<div class="container">
 	  <div class="avatar">
-		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image" style="width:100px">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image" style="width:130px">
 	  </div>
-	  <h3><a href="https://github.com/openstack/cloudkitty"><strong style="color:#27A822">CloudKitty</strong></a> is a <strong>Rating as a Service</strong> project for OpenStack and beyond.</h3>
-    <p style="text-align: justify">
-      The project aims at being a generic solution for the chargeback and rating of a cloud. Historically, it was only possible to operate it inside of an OpenStack context, but it is now possible to run CloudKitty in standalone mode.
-    </p>
-    <p style="text-align: justify">
-      CloudKitty allows to do metric-based rating: it polls endpoints in order to retrieve measures and metadata about specific metrics, applies rating rules to the collected data and pushes the rated data to its storage backend.
-    </p>
-    <p style="text-align: justify">
-      CloudKitty is highly modular, which makes it easy to add new features.
-    </p>
-
-    <div class="row" style="padding-top: 30px">
+	  <h1><a href="https://github.com/openstack/cloudkitty"><strong style="color:#27A822">CloudKitty</strong></a> is a <strong>Rating as a Service</strong> project for OpenStack and beyond.</h1>
+    <div style="text-align: justify; margin-top: 3em">
+      <p class="home-page">
+        The project aims at being a generic solution for the chargeback and rating of a cloud. Historically, it was only possible to operate it inside of an OpenStack context, but it is now possible to run CloudKitty in standalone mode.
+      </p>
+      <p class="home-page">
+        CloudKitty allows to do metric-based rating: it polls endpoints in order to retrieve measures and metadata about specific metrics, applies rating rules to the collected data and pushes the rated data to its storage backend.
+      </p>
+      <p class="home-page">
+        CloudKitty is highly modular, which makes it easy to add new features.
+      </p>
+    </div>
+    <div class="row" style="padding-top: 4em">
       <div class="col-md-6">
-        <i class="fas fa-rocket" style="font-size:30px; color:#27A822"></i>
-        <h4>Looking to get started ?</h4>
-        Check out the <a href="https://docs.openstack.org/cloudkitty/latest/">documentation</a> !
+        <i class="fas fa-rocket" style="font-size:60px; color:#27A822"></i>
+        <h3>Looking to get started ?</h3>
+        <p class="home-page">Check out the <a href="https://docs.openstack.org/cloudkitty/latest/">documentation</a> !</p>
       </div>
 
       <div class="col-md-6">
-        <i class="fas fa-edit" style="font-size:30px; color:#27A822"></i>
-        <h4>Wanna post an article on this site ?</h4>
-        <a href="{{ site.baseurl }}introducing-cloudkittyio">Learn how to!</a>
+        <i class="fas fa-edit" style="font-size:60px; color:#27A822"></i>
+        <h3>Wanna post an article on this site ?</h3>
+        <p class="home-page"><a href="{{ site.baseurl }}introducing-cloudkittyio">Learn how to!</a></p>
       </div>
     </div>
 
     <div style="padding-top: 30px">
-      <h4><strong>We're looking for contributors!</strong></h4>
+      <h3><strong>We're looking for contributors!</strong></h3>
     </div>
           <hr>
-          <h3><strong>Latest posts:</strong></h3>
+          <h2><strong>Latest posts:</strong></h2>
           <br>
           <div class="row">
             {% for post in site.posts %}
@@ -47,7 +48,7 @@ layout: home
               <div class="col-sm-6">
                 <div style="max-width: 350px; margin-left: auto;margin-right: auto;">
                   <img src="{{ site.baseurl }}{{ post.thumbnail }}" style="max-width: 100%;">
-                  <h4><strong>{{ post.title }}</strong></h4>
+                  <h3><strong>{{ post.title }}</strong></h3>
                 </div>
               </div>
             </a>

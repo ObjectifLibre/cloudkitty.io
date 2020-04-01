@@ -9,7 +9,7 @@ thumbnail: /assets/markdown-cheatsheet/thumbnail.jpg
 
 ## Typography Elements in One
 
-Let's start with a informative paragraph. **This text is bolded.** But not this one! _How about italic text?_  Ok, let's **_combine_** them together. In case you have code to highlight, `ProceedLikeThis()`. By the way, [here's a link to cloudkitty project](https://github.com/openstack/cloudkitty) or [https://github.com/openstack/cloudkitty](https://github.com/openstack/cloudkitty).
+Let's start with a informative paragraph. **This text is bolded.** But not this one! _How about italic text?_  Ok, let's **_combine_** them together. In case you have code to highlight, `ProceedLikeThis()`. By the way, [here's a link to this template](https://github.com/jekyller/sustain) or [https://github.com/jekyller/sustain](https://github.com/jekyller/sustain).
 
 <div class="divider"></div>
 
@@ -131,7 +131,7 @@ ___
 
 ### Image
 
-![CloudKitty](/assets/markdown-cheatsheet/cloudkitty-openstack-community.png)
+![CloudKitty](assets/markdown-cheatsheet/cloudkitty-openstack-community.png)
 
 [^1]: Footnote number one.
 

@@ -5,7 +5,11 @@ tags: [Blog, Annoucement]
 thumbnail: /assets/introducing-cloudkittyio/thumbnail.png
 ---
 
-![CloudKitty](/assets/introducing-cloudkittyio/cloudkitty-openstack-community.png)
+
+
+<p align="center">
+    <img src="assets/introducing-cloudkittyio/cloudkitty-openstack-community.png"/>
+</p>
 
 The CloudKitty Community is proud to announce that **cloudkitty.io** is now
 officially online! This website is meant to be a collaborative blog about
